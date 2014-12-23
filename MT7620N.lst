@@ -1,0 +1,154 @@
+eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 2014/12/12 16:44:31
+#Cmp ( order = Reference )
+| C1         470uF/6.3V  ; C_CPOL_SMCE 
+| C2         MLCC_C3216X7R1E475K/4.7uF/25V; rcl-C1206   
+| C3         100N        ; C_C_0603    
+| C4         0.1UF       ; C_C_0603    
+| C5         0.1UF       ; C_C_0603    
+| C6         22uF        ; C_C_0603    
+| C7         6.8NF       ; C_C_0603    
+| C8         4.7uF       ; C_C_0603    
+| C9         10NF        ; C_C_0603    
+| C10        MLCC_C3216X7R1E106KT/10uF/4.5V; rcl-C1206   
+| C11        0.1UF       ; C_C_0603    
+| C12        1uF         ; C_C_0603    
+| C13        1uF         ; C_C_0603    
+| C14        0.1uF       ; C_C_0603    
+| C15        0.1uF       ; C_C_0603    
+| C16        4.7uF       ; C_C_0603    
+| C17        0.1uF       ; C_C_0603    
+| C18        0.1uF       ; C_C_0603    
+| C19        4.7uF       ; C_C_0603    
+| C20        0.1uF       ; C_C_0603    
+| C21        0.1uF       ; C_C_0603    
+| C22        0.1uF       ; C_C_0603    
+| C23        12p         ; C_C_0603    
+| C24        12p         ; C_C_0603    
+| C25        0.1uF       ; C_C_0603    
+| C26        0.1uF       ; C_C_0603    
+| C27        1UF         ; C_C_0603    
+| C28        0.1uF       ; C_C_0603    
+| C29        0.1uF       ; C_C_0603    
+| C30        0.1uF       ; C_C_0603    
+| C31        68uF        ; C_CPOL_SMCB 
+| C32        68uF        ; C_CPOL_SMCB 
+| C33        68uF        ; C_CPOL_SMCB 
+| C34        68uF        ; C_CPOL_SMCB 
+| C35        10UF/10V    ; C_CPOL_SMCA 
+| C36        MLCC_C3216X7R1E106KT/10uF/4.5V; rcl-C1206   
+| C37        10uF        ; C_CPOL_SMCA 
+| C38        10uF        ; C_CPOL_SMCA 
+| C39        0.1uF       ; C_C_0603    
+| C40        0.1uF       ; C_C_0603    
+| C41        0.1uF       ; C_C_0603    
+| C42        0.1uF       ; C_C_0603    
+| C43        0.1UF       ; C_C_0603    
+| C44        10UF/10V    ; C_CPOL_SMCA 
+| C45        0.1UF       ; C_C_0603    
+| C46        10UF/10V    ; C_CPOL_SMCA 
+| C47        5PF         ; C_C_0603    
+| C48        0.1UF       ; C_C_0603    
+| C49        10UF/10V    ; C_CPOL_SMCA 
+| C50        0.1UF       ; C_C_0603    
+| C51        33PF        ; C_C_0603    
+| C52        0.1UF       ; C_C_0603    
+| C53        0.1UF       ; C_C_0603    
+| C54        0.1UF       ; C_C_0603    
+| C55        0.1UF       ; C_C_0603    
+| C56        47uF/16V    ; C_CPOL_SMCC 
+| C57        10NF        ; C_C_0603    
+| C58        10NF        ; C_C_0603    
+| C59        10NF        ; C_C_0603    
+| C60        10NF        ; C_C_0603    
+| C61        1UF         ; C_C_0603    
+| C62        0.1uF       ; C_C_0805    
+| C63        0.1uF       ; C_C_0805    
+| C64        100pF       ; rcl-C0805   
+| C65        C-EUC1206   ; rcl-C1206   
+| D2         C_B130_13_F_SMA; C_B130      
+| J1         POWERJACK-DC21_2; POWERJACK-DC-2,1MM
+| JP1        IO_FM13X2   ; IO_FM13X2    2.0MM≤Â◊˘
+| JP2        IO_FM13X2   ; IO_FM13X2   2.0MM≤Â◊˘
+| JP19       IO_MOLEX-70553-04; IO_MOLEX-70553-04    
+| L1         CDRH74NP-100MC/10uH/4A; rcl-L7070   
+| L3         BLM21PG221SN1; rcl-L0805   
+| L4         32OHM/BEAD  ; rcl-L0805   
+| L5         32OHM/BEAD  ; rcl-L0805   
+| L6         BLM21PG221SN1; rcl-L0805   
+| L7         BLM21PG221SN1; rcl-L0805   
+| L8         BLM21PG221SN1; rcl-L0805   
+| L9         BLM21PG221SN1; rcl-L0805   
+| L10        BLM21PG221SN1; rcl-L0805   
+| L11        BLM21PG221SN1; rcl-L0805   
+| L14        32OHM/BEAD  ; rcl-L0805   
+| L15        32OHM/BEAD  ; rcl-L0805   
+| L16        32OHM/BEAD  ; rcl-L0805   
+| LED1       Green       ; C_LED_0805  
+| LED2       C_LED_0805  ; C_LED_0805  
+| LED3       C_LED_0805  ; C_LED_0805  
+| LED4       C_LED_0805  ; C_LED_0805  
+| Q1         2N3904      ; C_T-NPN-BC847-SMD_SOT23
+| Q2         2N3904      ; C_T-NPN-BC847-SMD_SOT23
+| R1         4.7K        ; C_R_0603    
+| R2         100K        ; C_R_0603    
+| R3         10K         ; C_R_0603    
+| R4         47K         ; C_R_0603    
+| R5         6.8K        ; C_R_0603    
+| R6         10K/1%      ; C_R_0603    
+| R7         26.1K/1%    ; C_R_0603    
+| R8         10K         ; C_R_0603    
+| R9         10k         ; C_R_0603    
+| R10        15k         ; C_R_0603    
+| R11        2.43k/1%    ; C_R_0603    
+| R12        33          ; C_R_0603    
+| R13        510K        ; C_R_0603    
+| R14        510K        ; C_R_0603    
+| R15        510K        ; C_R_0603    
+| R16        510K        ; C_R_0603    
+| R17        10K         ; C_R_0603    
+| R18        10K         ; C_R_0603    
+| R19        10K         ; C_R_0603    
+| R20        10K         ; C_R_0603    
+| R21        1M          ; C_R_0603    
+| R22        10K         ; C_R_0603    
+| R23        330         ; C_R_0603    
+| R24        10K         ; C_R_0603    
+| R25        4.7K        ; C_R_0603    
+| R26        4.7K        ; C_R_0603    
+| R27        10K         ; C_R_0603    
+| R28        12K/1%      ; C_R_0603    
+| R29        300         ; C_R_0603    
+| R30        75          ; C_R_0805    
+| R31        75          ; C_R_0805    
+| R32        1M          ; C_R_0805    
+| R33        300         ; C_R_0603    
+| R34        300         ; C_R_0603    
+| R35        4.7K        ; C_R_0603    
+| R36        4.7K        ; C_R_0603    
+| U1         IC_MP1484EN_SOIC08; IC_MP1484EN_SOIC08
+| U2         DLW21SN900SQ2; DLW21SN900SQ2
+| U3         IP4220CZ6   ; IP4220CZ6_SOT23_6
+| U4         UPD720114-QFP48; UPD720114-QFP48
+| U5         DLW21SN900SQ2; DLW21SN900SQ2
+| U6         HN2066CG_DIP20; HN2066CG_DIP20
+| U7         93LC46_SOP8 ; SOP08       
+| U8         IO_USB_A_90 ; IO_USB_A_90 USBƒ∏◊˘
+| U9         DLW21SN900SQ2; DLW21SN900SQ2
+| U10        DLW21SN900SQ2; DLW21SN900SQ2
+| U11        IP4220CZ6   ; IP4220CZ6_SOT23_6
+| U12        JM20329     ; LQFP48      
+| U13        IP4220CZ6   ; IP4220CZ6_SOT23_6
+| U14        IP4220CZ6   ; IP4220CZ6_SOT23_6
+| U15        AP2146      ; SOP8 
+| U16        AP2146      ; SOP8 
+| U17        IO_USB_A_90 ; IO_USB_A_90 USBƒ∏◊˘
+| U18        IO_USB_A_90 ; IO_USB_A_90 USBƒ∏◊˘
+| U19        SATA-FEMAIL_22P; SATA-FEMAIL_22P
+| U20        IO_RJ45X1-JACK; IO_RJ45X1  Õ¯ø⁄◊˘ 
+| U21        IO_RJ45X1-JACK; IO_RJ45X1  Õ¯ø⁄◊˘  
+| U22        DLW21SN900SQ2; DLW21SN900SQ2
+| X1         30MHz       ; C_CRY_5.0-3.2
+| X2         12M         ; C_CRY_DIP2  
+#End Cmp
+
+#ÂàóË°®ÁªìÊùü
