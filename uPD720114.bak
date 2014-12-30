@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2014/12/30 17:10:49
+EESchema Schematic File Version 2  date 2014/12/30 15:59:38
 LIBS:C
 LIBS:IC
 LIBS:power
@@ -1145,7 +1145,7 @@ F 3 "" H 6300 3750 60  0000 C CNN
 	1    6300 3750
 	1    0    0    1   
 $EndComp
-Text Label 7750 3900 0    60   ~ 0
+Text Label 7050 4100 2    60   ~ 0
 VBUS1
 $Comp
 L IO_M04X1 JP9
@@ -1704,9 +1704,15 @@ Wire Wire Line
 Wire Wire Line
 	6850 3850 7050 3850
 Wire Wire Line
-	7050 3850 7050 4100
+	7050 4100 7350 4100
 Wire Wire Line
-	7150 3650 7150 4000
+	7050 3850 7050 4000
+Wire Wire Line
+	7050 4000 7350 4000
+Wire Wire Line
+	7150 3650 7150 3900
+Wire Wire Line
+	7150 3900 7350 3900
 Wire Wire Line
 	7350 3800 7250 3800
 Wire Wire Line
@@ -1722,10 +1728,4 @@ F 3 "~" H 7250 4200 60  0000 C CNN
 	1    7250 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 4000 7350 4000
-Wire Wire Line
-	7050 4100 7350 4100
-Wire Wire Line
-	7350 3900 7750 3900
 $EndSCHEMATC
