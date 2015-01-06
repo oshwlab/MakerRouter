@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2014/12/30 17:10:49
+EESchema Schematic File Version 2  date 2015/1/4 11:31:27
 LIBS:C
 LIBS:IC
 LIBS:power
@@ -20,7 +20,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title ""
-Date "30 dec 2014"
+Date "4 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -970,17 +970,6 @@ F 3 "~" H 7250 1700 60  0000 C CNN
 $EndComp
 Text Label 8300 2800 2    60   ~ 0
 VBUS2
-$Comp
-L C_CRY_5.0-3.2 X1
-U 1 1 535271F7
-P 4200 1150
-F 0 "X1" H 4125 1405 50  0000 L BNN
-F 1 "30MHz" H 3900 1300 50  0000 L BNN
-F 2 "C_CRY_5.0-3.2" H 4200 800 50  0001 C CNN
-F 3 "~" H 4200 1150 60  0000 C CNN
-	1    4200 1150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8200 3200
 NoConn ~ 7300 3200
 $Comp
@@ -1728,4 +1717,23 @@ Wire Wire Line
 	7050 4100 7350 4100
 Wire Wire Line
 	7350 3900 7750 3900
+$Comp
+L C_CRY_DIP2 X1
+U 1 1 54A8BA85
+P 4200 750
+F 0 "X1" H 4200 900 60  0000 C CNN
+F 1 "30MHz" H 4200 600 60  0000 C CNN
+F 2 "C_CRY_DIP2" H 4250 500 60  0001 C CNN
+F 3 "~" H 4200 750 60  0000 C CNN
+	1    4200 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 750  3750 750 
+Wire Wire Line
+	3750 750  3750 1150
+Wire Wire Line
+	4500 750  4650 750 
+Wire Wire Line
+	4650 750  4650 1150
 $EndSCHEMATC
