@@ -1,4 +1,4 @@
-update=2014/12/30 16:40:20
+update=2015/1/22 13:32:24
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -35,8 +35,8 @@ LibName14=WLAN-cache
 version=1
 LastNetListRead=MT7620N.net
 UseCmpFile=0
-PadDrill=2
-PadSizeH=3.2
+PadDrill=1.5
+PadSizeH=2
 PadSizeV=2
 PcbTextSizeV=1
 PcbTextSizeH=1
@@ -59,3 +59,4 @@ LibName5=mini6
 LibName6=opensouce
 LibName7=C:/Users/rhky/Desktop/jiqi
 LibName8=WRTnode
+LibName9=gl

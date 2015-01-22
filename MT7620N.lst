@@ -64,11 +64,13 @@ eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 2014/12/12 16:44:31
 | C62        0.1uF       ; C_C_0805    
 | C63        0.1uF       ; C_C_0805    
 | C64        100pF       ; rcl-C0805   
-| C65        C-EUC1206   ; rcl-C1206   
+| C65        102         ; rcl-C1206   
 | D2         C_B130_13_F_SMA; C_B130      
-| J1         POWERJACK-DC21_2; POWERJACK-DC-2,1MM
+| J1         POWERJACK-DC21_2; POWERJACK-DC-2,1MMÏ¸Ð¾ºÚÉ«µçÔ´²å×ù
 | JP1        IO_FM13X2   ; IO_FM13X2    2.0MM²å×ù
 | JP2        IO_FM13X2   ; IO_FM13X2   2.0MM²å×ù
+  JP10       ²»º¸
+  ÓÒ±ß3pin²åÕë¿×¶¼º¸ £¬4pinµÄ²åÕë¿×¶¼²»º¸
 | JP19       IO_MOLEX-70553-04; IO_MOLEX-70553-04    
 | L1         CDRH74NP-100MC/10uH/4A; rcl-L7070   
 | L3         BLM21PG221SN1; rcl-L0805   
@@ -84,11 +86,11 @@ eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 2014/12/12 16:44:31
 | L15        32OHM/BEAD  ; rcl-L0805   
 | L16        32OHM/BEAD  ; rcl-L0805   
 | LED1       Green       ; C_LED_0805  
-| LED2       C_LED_0805  ; C_LED_0805  
-| LED3       C_LED_0805  ; C_LED_0805  
-| LED4       C_LED_0805  ; C_LED_0805  
-| Q1         2N3904      ; C_T-NPN-BC847-SMD_SOT23
-| Q2         2N3904      ; C_T-NPN-BC847-SMD_SOT23
+| LED2       Green       ; C_LED_0805  
+| LED3       Green       ; C_LED_0805  
+| LED4       Green       ; C_LED_0805  
+| Q1         2N3904      ; C_T-NPN-SMD_SOT23
+| Q2         2N3904      ; C_T-NPN-SMD_SOT23
 | R1         4.7K        ; C_R_0603    
 | R2         100K        ; C_R_0603    
 | R3         10K         ; C_R_0603    
@@ -147,7 +149,7 @@ eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 2014/12/12 16:44:31
 | U20        IO_RJ45X1-JACK; IO_RJ45X1  Íø¿Ú×ù 
 | U21        IO_RJ45X1-JACK; IO_RJ45X1  Íø¿Ú×ù  
 | U22        DLW21SN900SQ2; DLW21SN900SQ2
-| X1         30MHz       ; C_CRY_5.0-3.2
+| X1         30MHz       ; C_CRY_DIP2 
 | X2         12M         ; C_CRY_DIP2  
 #End Cmp
 
